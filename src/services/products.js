@@ -1,7 +1,7 @@
 import axios from "../../node_modules/axios";
 
 const getAllProductsApiEndPoint = "https://e-commerce-web-application2020.herokuapp.com/products";
-const addProductApiEndPoint = "http://localhost:3000/products/add-product";
+const addProductApiEndPoint = "https://e-commerce-web-application2020.herokuapp.com/add-product";
 
 export async function GetAllProducts(categoryId, search, sort, item) {
   const { data } = await axios.get(
