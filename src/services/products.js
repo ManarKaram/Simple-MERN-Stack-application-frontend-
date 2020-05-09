@@ -41,7 +41,7 @@ export const Delete = async id => {
   return data;
 };
 
-const getAllCategoriesApiEndPoint = "http://localhost:3000/categories";
+const getAllCategoriesApiEndPoint = "https://e-commerce-web-application2020.herokuapp.com/categories";
 export const GetAllCategories = async function () {
   const { data } = await axios.get(getAllCategoriesApiEndPoint);
   return data;
