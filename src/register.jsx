@@ -52,10 +52,7 @@ class Register extends Component {
                                     onChange={this.changeInputHandler} />
                             </div>
                         </div>
-                        {
 
-                        }
-                        <div>error</div>
 
                         <div className="login__remember-me">
                             <div className="add-product__actions">
