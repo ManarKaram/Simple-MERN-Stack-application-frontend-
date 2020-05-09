@@ -16,6 +16,7 @@ class Register extends Component {
         if (password === confirmPassword) {
             const obj = { email, password };
             AddUser(obj);
+            window.location.href = "./login";
         }
         else {
             console.log("Password don't match")
