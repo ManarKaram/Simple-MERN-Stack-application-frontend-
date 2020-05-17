@@ -35,7 +35,7 @@ class App extends Component {
           <Route path="/edit-product/:id" component={EditProduct}></Route>
           <Route path="/register" component={Register} />
           <Route path="/login" component={Login} />
-          <Route path="/home" component={ProductListing} exact />
+          <Route path="/home" component={Login} exact />
           <Redirect from="/" exact to="/home" />
         </Switch>
       </React.Fragment>
